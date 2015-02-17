@@ -31,8 +31,9 @@ class Welcome extends CI_Controller
 	public function index()
 	{
                 $data = Resenhas_Functions::update_menu_lateral('home_menu');
-                $data['content'] = 'welcome_content';
-                $data['data'] = array();
+                $data['content_main'] = 'welcome_content';
+                $data['data_main'] = array();
+                $data['data_comp'] = array();
                 
                 $this->load->view('includes/template', $data);
 	}

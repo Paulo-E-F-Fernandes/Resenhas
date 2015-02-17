@@ -1,4 +1,28 @@
-<div class="content content_message">
+<!-- Main jumbotron for a primary marketing message or call to action -->
+<div class="jumbotron">
+        <div class="container">
+                <div class="row">
+                        <div id="book_cover" class="col-md-3 col-xs-4 hidden-xs hidden-sm">
+                                <!-- 200x300 -->
+                                <img alt="livro tal" class="img-thumbnail" src="<?php echo base_url() ?>img/200px-Eragon_book_cover.png">
+                        </div>
+
+                        <div id="book_synopsis" class="col-md-9">
+                                <div id="book_title">
+                                        <h2>Eragon <small>Christopher Paolini</small></h2>
+                                </div>
+
+                                <div class="text-justify">
+                                        <h4>This is a template for a simple marketing or informational website. It includes a large callout called a jumbotron and three supporting pieces of content. Use it as a starting point to create something more unique.</h4>
+                                        <h4>This is a template for a simple marketing or informational website. It includes a large callout called a jumbotron and three supporting pieces of content. Use it as a starting point to create something more unique.</h4>
+                                </div>
+                                <p><a href="#" class="btn btn-primary btn-lg" role="button">Learn more &raquo;</a></p>
+                        </div>
+                </div>
+        </div>
+</div>
+
+<div class="content">
         <div class="text-justify">
                 <p>
                         Mussum ipsum cacilds, vidis litro abertis. Consetis adipiscings elitis. 

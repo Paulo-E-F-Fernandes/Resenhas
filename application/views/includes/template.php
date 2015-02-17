@@ -118,9 +118,19 @@
 	
 		<!-- main content -->
                 <div class="container" role="main">
-                        <div class="container">
-                                <?php $this->load->view($content, $data); ?>
+                        <div class="row">
+                                <div class="col-md-9" role="main">
+                                        <?php $this->load->view($content_main, $data_main); ?>
+                                </div>
+                                
+                                <div id="sidebar" class="col-md-3 hidden-xs hidden-sm" role="complementary">
+                                        <?php $this->load->view('includes/sidebar', $data_comp); ?>
+                                </div>
                         </div>
+                    
+                        <!-- <div class="container"> -->
+                                
+                        <!-- </div> -->
                 </div>
 		
 		<!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->

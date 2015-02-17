@@ -28,8 +28,9 @@ class Resenhas extends CI_Controller
 //                        }
 //                        else
 //                        {
-                                $data['content'] = 'lista_vazia_content';
-                                $data['data'] = array('teste' => base_url());
+                                $data['content_main'] = 'lista_vazia_content';
+                                $data['data_main'] = array();
+                                $data['data_comp'] = array();
 //                        }
                         
                         $this->load->view('includes/template', $data);
