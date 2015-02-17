@@ -1,0 +1,151 @@
+/* colors */
+.black {
+        color: #000000;
+}
+
+.black > a {
+        color: #000000;
+        font-weight: bold;
+}
+
+.white {
+        color: #FFFFFF;
+}
+
+/* others */
+.button-pers {
+        border: none;
+}
+
+.button-pers:focus {
+        color: #FFF;
+        background-color: transparent;
+}
+
+.theme-showcase > p > .btn {
+        margin: 5px 0;
+}
+
+body {
+        padding-top: 100px;
+        /* IE10 Consumer Preview */ 
+        background-image: -ms-linear-gradient(top, #06316D 0%, #06ACF6 100%);
+        /* Mozilla Firefox */ 
+        background-image: -moz-linear-gradient(top, #06316D 0%, #06ACF6 100%);
+        /* Opera */ 
+        background-image: -o-linear-gradient(top, #06316D 0%, #06ACF6 100%);
+        /* Webkit (Safari/Chrome 10) */ 
+        background-image: -webkit-gradient(linear, left top, left bottom, color-stop(0, #06316D), color-stop(1, #06ACF6));
+        /* Webkit (Chrome 11+) */ 
+        background-image: -webkit-linear-gradient(top, #06316D 0%, #02B1E6 100%);
+        /* W3C Markup, IE10 Release Preview */ 
+        background-image: linear-gradient(to bottom, #06316D 0%, #02B1E6 100%);
+}
+
+#book_title {
+        text-align: center;
+}
+
+.navbar {
+        padding-bottom: 5px;
+}
+
+.navbar-default .navbar-nav>li>a {
+        color: #000000;
+}
+
+.navbar-default, .navbar-default .navbar-nav>.active>a, .img-thumbnail, .jumbotron, 
+.navbar-default .navbar-toggle:hover, .navbar-default .navbar-toggle:focus, .content {
+        -webkit-box-shadow: 6px 5px 12px 0px rgba(0, 0, 0, 0.85);
+        -moz-box-shadow:    6px 5px 12px 0px rgba(0, 0, 0, 0.85);
+        box-shadow:         6px 5px 12px 0px rgba(0, 0, 0, 0.85);
+}
+
+.navbar-default .navbar-nav>.active>a, .navbar-default .navbar-nav>.active>a:hover {
+        border-radius: 3px;
+        color: #FFFFFF;
+}	
+
+.navbar-default .navbar-nav>.active>a, .navbar-default .navbar-toggle:hover, .navbar-default .navbar-toggle:focus {
+        /* IE10 Consumer Preview */ 
+        background-image: -ms-linear-gradient(top, #06316D 0%, #0631C6 100%);
+        /* Mozilla Firefox */ 
+        background-image: -moz-linear-gradient(top, #06316D 0%, #0631C6 100%);
+        /* Opera */ 
+        background-image: -o-linear-gradient(top, #06316D 0%, #0631C6 100%);
+        /* Webkit (Safari/Chrome 10) */ 
+        background-image: -webkit-gradient(linear, left top, left bottom, color-stop(0, #06316D), color-stop(1, #0631C6));
+        /* Webkit (Chrome 11+) */ 
+        background-image: -webkit-linear-gradient(top, #06316D 0%, #0631C6 100%);
+        /* W3C Markup, IE10 Release Preview */ 
+        background-image: linear-gradient(to bottom, #06316D 0%, #06316 100%);
+}
+
+.navbar-default {
+        border: 0px;
+        border-radius: 0px;
+        margin-bottom: 0px;
+        /* IE10 Consumer Preview */ 
+        background-image: -ms-linear-gradient(top, #F00C9C 0%, #FF0DA6 100%);
+        /* Mozilla Firefox */ 
+        background-image: -moz-linear-gradient(top, #F00C9C 0%, #FF0DA6 100%);
+        /* Opera */ 
+        background-image: -o-linear-gradient(top, #F00C9C 0%, #FF0DA6 100%);
+        /* Webkit (Safari/Chrome 10) */ 
+        background-image: -webkit-gradient(linear, left top, left bottom, color-stop(0, #F00C9C), color-stop(1, #FF0DA6));
+        /* Webkit (Chrome 11+) */ 
+        background-image: -webkit-linear-gradient(top, #F00C9C 0%, #FF0DA6 100%);
+        /* W3C Markup, IE10 Release Preview */ 
+        background-image: linear-gradient(to bottom, #F00C9C 0%, #FF0DA6 100%);
+}
+
+#sidebar {
+        padding: 20px 10px 20px 10px;
+}
+
+.navbar-default .navbar-toggle:hover, .navbar-default .navbar-toggle:focus {
+        color: #F00C9C;
+}
+
+.jumbotron {	
+        background: rgb(240, 240, 240);
+        /* Mozilla Firefox */
+        background: -moz-linear-gradient(90deg, rgba(240, 240, 240, 1) 0%, rgba(250, 250, 250, 1) 100%);
+        /* Webkit (Chrome 11+) */
+        background: -webkit-linear-gradient(90deg, rgba(240, 240, 240, 1) 0%, rgba(250, 250, 250, 1) 100%);
+        /* Opera */ 
+        background: -o-linear-gradient(90deg, rgba(240, 240, 240, 1) 0%, rgba(250, 250, 250, 1) 100%);
+        /* IE10 Consumer Preview */
+        background: -ms-linear-gradient(90deg, rgba(240, 240, 240, 1) 0%, rgba(250, 250, 250, 1) 100%);
+        /* W3C Markup, IE10 Release Preview */
+        background: linear-gradient(180deg, rgba(240, 240, 240, 1) 0%, rgba(250, 250, 250, 1) 100%);
+        
+        margin-top: 10px;
+}	
+
+.navbar-header > button {
+        border: 0px;
+}
+
+.content {
+        background: rgb(249, 241, 220);
+        /* Mozilla Firefox */
+        background: -moz-linear-gradient(90deg, rgba(249, 241, 220, 1) 0%, rgba(255, 254, 236, 1) 100%);
+        /* Webkit (Chrome 11+) */
+        background: -webkit-linear-gradient(90deg, rgba(249, 241, 220, 1) 0%, rgba(255, 254, 236, 1) 100%);
+        /* Opera */ 
+        background: -o-linear-gradient(90deg, rgba(249, 241, 220, 1) 0%, rgba(255, 254, 236, 1) 100%);
+        /* IE10 Consumer Preview */
+        background: -ms-linear-gradient(90deg, rgba(249, 241, 220, 1) 0%, rgba(255, 254, 236, 1) 100%);
+        /* W3C Markup, IE10 Release Preview */
+        background: linear-gradient(180deg, rgba(249, 241, 220, 1) 0%, rgba(255, 254, 236, 1) 100%);
+        
+        border-radius: 3px;
+        padding: 20px 20px 10px 20px;
+        margin-bottom: 10px;
+}
+
+#footer {
+        padding: 20px 0px 20px 0px;
+        margin-top: 10px;
+}
